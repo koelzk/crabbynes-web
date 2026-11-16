@@ -1,0 +1,15 @@
+{
+  "name": "crabby",
+  "type": "module",
+  "version": "0.0.0",
+  "files": [
+    "crabby_bg.wasm",
+    "crabby.js",
+    "crabby.d.ts"
+  ],
+  "main": "crabby.js",
+  "types": "crabby.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
